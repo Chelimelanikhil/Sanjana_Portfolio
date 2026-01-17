@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Sanjana's Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Sanjana</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Sanjana Yadav</h1>
+                    <h3 class="home__education">Full Stack Developer</h3>
+
+                    <div class="home__button">
+                        <a download="" href="assets/pdf/hailee-Cv.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/perfil.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/sanjana-yadav-4a7b1b25b/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-dribbble'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">2+ Years Working</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">5+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                   <p class="about__description">
+    Full Stack Developer specializing in end-to-end web application development. 
+    I build scalable solutions from database architecture to responsive front-end interfaces, 
+    with expertise in modern frameworks and technologies. With years of professional experience, 
+    I deliver robust, user-centric applications that exceed client expectations and drive 
+    business results.
+</p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My Abilities</span>
+            <h2 class="section__title">My Experience</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS/SCSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+<div class="skills__content">
+    <h3 class="skills__title">Backend Development</h3>
+
+    <div class="skills__box">
+        <div class="skills__group">
+            <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                    <h3 class="skills__name">.NET Framework</h3>
+                    <span class="skills__level">Advanced</span>
+                </div>
+            </div>
+
+            <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                    <h3 class="skills__name">.NET Core</h3>
+                    <span class="skills__level">Advanced</span>
+                </div>
+            </div>
+
+            <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                    <h3 class="skills__name">ASP.NET MVC</h3>
+                    <span class="skills__level">Advanced</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="skills__group">
+            <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                    <h3 class="skills__name">ASP.NET Web API</h3>
+                    <span class="skills__level">Advanced</span>
+                </div>
+            </div>
+
+            <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                    <h3 class="skills__name">Entity Framework</h3>
+                    <span class="skills__level">Advanced</span>
+                </div>
+            </div>
+
+            <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                    <h3 class="skills__name">SQL Server</h3>
+                    <span class="skills__level">Advanced</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+       <section class="services section">
+    <span class="section__subtitle">My Services</span>
+    <h2 class="section__title">What I Offer</h2>
+
+    <div class="services__container container grid">
+        <div class="services__card">
+            <div class="serv">
+                <h3 class="services__title">Backend <br> Development</h3>
+
+                <span class="services__button">
+                    See More <i class='bx bx-right-arrow services__icon'></i>
+                </span>
+            </div>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <i class='bx bx-x services__modal-close'></i>
+
+                    <h3 class="services__modal-title">Backend Development</h3>
+
+                    <p class="services__modal-description">
+                        I build robust server-side applications and APIs using modern .NET technologies,
+                        ensuring scalable, secure, and high-performance backend solutions.
+                    </p>
+
+                    <ul class="services__modal-list">
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                RESTful API development with ASP.NET Core.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Database design and optimization with SQL Server.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Microservices architecture implementation.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Authentication and authorization systems.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Third-party API integrations and services.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="services__card">
+            <h3 class="services__title">Frontend <br> Development</h3>
+
+            <span class="services__button">
+                See More <i class='bx bx-right-arrow services__icon'></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <i class='bx bx-x services__modal-close'></i>
+
+                    <h3 class="services__modal-title">Frontend Development</h3>
+
+                    <p class="services__modal-description">
+                        I create responsive, intuitive user interfaces with modern frameworks and technologies,
+                        delivering seamless user experiences across all devices.
+                    </p>
+
+                    <ul class="services__modal-list">
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Responsive web design with HTML5, CSS3, and JavaScript.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Modern framework development (React, Angular, Vue).
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Interactive UI/UX component development.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Cross-browser compatibility and optimization.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Performance optimization and code quality.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="services__card">
+            <h3 class="services__title">Full Stack <br> Solutions</h3>
+
+            <span class="services__button">
+                See More <i class='bx bx-right-arrow services__icon'></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <i class='bx bx-x services__modal-close'></i>
+
+                    <h3 class="services__modal-title">Full Stack Solutions</h3>
+
+                    <p class="services__modal-description">
+                        I deliver complete end-to-end web applications, from database architecture to
+                        polished user interfaces, with deployment and ongoing maintenance support.
+                    </p>
+
+                    <ul class="services__modal-list">
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Complete web application development from scratch.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Cloud deployment and DevOps integration.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Legacy system modernization and migration.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Technical consulting and architecture design.
+                            </p>
+                        </li>
+
+                        <li class="services__modal-item">
+                            <i class='bx bx-check-circle'></i>
+                            <p class="services__modal-info">
+                                Ongoing maintenance and feature enhancements.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+    <span class="section__subtitle">My Portfolio</span>
+    <h2 class="section__title">Recent Projects</h2>
+
+    <div class="work__filters">
+        <span class="work__item active-work" data-filter='all'>All</span>
+        <span class="work__item" data-filter='.web'>Web Apps</span>
+        <span class="work__item" data-filter='.enterprise'>Enterprise</span>
+        <span class="work__item" data-filter='.api'>API</span>
+    </div>
+
+    <div class="work__container container grid">
+        <div class="work__card mix enterprise">
+            <img src="assets/img/work1.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">HRMS System</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+
+        <div class="work__card mix enterprise">
+            <img src="assets/img/work2.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">Hospital Management System</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+
+        <div class="work__card mix web">
+            <img src="assets/img/work3.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">E-Commerce Platform</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+
+        <div class="work__card mix enterprise">
+            <img src="assets/img/work4.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">Inventory Management System</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+
+        <div class="work__card mix api">
+            <img src="assets/img/work5.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">Payment Gateway Integration</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+        <!--=============== TESTIMONIALS ===============-->
+       <section class="testimonial section">
+    <span class="section__subtitle">My clients say</span>
+    <h2 class="section__title">Testimonials</h2>
+
+    <div class="testimonial__container container swiper">
+        <div class="swiper-wrapper">
+            <div class="testimonial__card swiper-slide">
+                <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
+
+                <h3 class="testimonial__name">Sarah Mitchell</h3>
+                <h4 class="testimonial__role">CEO, HealthCare Solutions</h4>
+                <p class="testimonial__description">
+                    Excellent work on our hospital management system. The backend architecture is robust and scalable, 
+                    handling thousands of patient records seamlessly. The API integration was flawless and delivered ahead of schedule.
+                </p>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+                <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
+
+                <h3 class="testimonial__name">David Chen</h3>
+                <h4 class="testimonial__role">CTO, TechStart Inc</h4>
+                <p class="testimonial__description">
+                    Built our entire e-commerce platform from scratch using .NET Core and React. 
+                    The performance is outstanding, and the clean code makes it easy for our team to maintain. 
+                    Highly skilled full stack developer!
+                </p>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+                <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
+
+                <h3 class="testimonial__name">Maria Rodriguez</h3>
+                <h4 class="testimonial__role">HR Director, GlobalCorp</h4>
+                <p class="testimonial__description">
+                    Our HRMS system exceeded all expectations. The application is intuitive, fast, and secure. 
+                    Great communication throughout the project and quick to implement feedback. 
+                    A true professional who understands business needs.
+                </p>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+                <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
+
+                <h3 class="testimonial__name">James Wilson</h3>
+                <h4 class="testimonial__role">Operations Manager, LogiTrack</h4>
+                <p class="testimonial__description">
+                    The inventory management system has transformed our operations. Real-time tracking, 
+                    automated alerts, and comprehensive reporting. The SQL Server optimization reduced our query times by 70%. 
+                    Outstanding technical expertise!
+                </p>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+                <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
+
+                <h3 class="testimonial__name">Emily Thompson</h3>
+                <h4 class="testimonial__role">Founder, EduLearn Platform</h4>
+                <p class="testimonial__description">
+                    Developed our learning management system with complex features like live streaming, 
+                    payment integration, and analytics dashboard. The full stack implementation is seamless, 
+                    and student feedback has been overwhelmingly positive.
+                </p>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+
+        <!--=============== CONTACT ===============-->
+       <section class="contact section" id="contact">
+    <span class="section__subtitle">Get in touch</span>
+    <h3 class="section__title">Contact Me</h3>
+
+    <div class="contact__container container grid">
+        <div class="contact__content">
+            <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+            <div class="contact__info">
+                <div class="contact__card">
+                    <i class='bx bx-mail-send contact__card-icon'></i>
+                    <h3 class="contact__card-title">Email</h3>
+                    <span class="contact__card-data">sanjanyadav1125@gmail.com</span>
+
+                    <a href="mailto:your.email@domain.com" target="_blank" class="contact__button">
+                        Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                    </a>
+                </div>
+
+                <div class="contact__card">
+                    <i class='bx bxl-linkedin contact__card-icon'></i>
+                    <h3 class="contact__card-title">LinkedIn</h3>
+                    <span class="contact__card-data">Connect professionally</span>
+
+                    <a href="https://www.linkedin.com/in/sanjana-yadav-4a7b1b25b/" target="_blank" class="contact__button">
+                        Connect <i class='bx bx-right-arrow contact__button-icon'></i>
+                    </a>
+                </div>
+
+                <div class="contact__card">
+                    <i class='bx bxl-github contact__card-icon'></i>
+                    <h3 class="contact__card-title">GitHub</h3>
+                    <span class="contact__card-data">View my projects</span>
+
+                    <a href="https://github.com/yourusername" target="_blank" class="contact__button">
+                        Follow <i class='bx bx-right-arrow contact__button-icon'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact__content">
+            <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+
+            <form action="" class="contact__form">
+                <div class="contact__form-div">
+                    <label for="contact-name" class="contact__form-tag">Name</label>
+                    <input type="text" id="contact-name" placeholder="Enter your name" class="contact__form-input" required>
+                </div>
+
+                <div class="contact__form-div">
+                    <label for="contact-email" class="contact__form-tag">Email</label>
+                    <input type="email" id="contact-email" placeholder="Enter your email" class="contact__form-input" required>
+                </div>
+
+                <div class="contact__form-div">
+                    <label for="contact-subject" class="contact__form-tag">Subject</label>
+                    <input type="text" id="contact-subject" placeholder="Project inquiry, collaboration, etc." class="contact__form-input" required>
+                </div>
+
+                <div class="contact__form-div contact__form-area">
+                    <label for="contact-message" class="contact__form-tag">Message</label>
+                    <textarea name="message" id="contact-message" cols="30" rows="10" placeholder="Write your message here..." class="contact__form-input" required></textarea>
+                </div>
+
+                <button type="submit" class="button">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+
+          
+
+
+            <span class="footer__copy">
+                &#169; 2026 . All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
